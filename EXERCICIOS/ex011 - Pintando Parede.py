@@ -1,0 +1,5 @@
+l = float(input('Digite a largura da parede: '))
+a = float(input('Digite a altura da parede: '))
+print('A largura da parede é {} metros, e a altura {} metros.'.format(l, a))
+print('A área total é de {}m².'.format(l*a))
+print('Será preciso {} litros de tinta para pintar a parede.'.format((l*a)/2))
